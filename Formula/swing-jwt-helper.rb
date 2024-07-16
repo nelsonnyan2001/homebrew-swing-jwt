@@ -5,20 +5,20 @@
 class SwingJwtHelper < Formula
   desc "JWT helper for swing"
   homepage "https://github.com/nelsonnyan2001/jwt-helper"
-  version "0.0.4"
+  version "0.0.5"
 
   on_macos do
     on_intel do
-      url "https://github.com/nelsonnyan2001/jwt-helper/releases/download/v0.0.4/jwt-helper_Darwin_x86_64.tar.gz"
-      sha256 "e3b488093f9251e8e78e376c6ac9ece30186aac41fd8afb4e31c8852d0a8cc1e"
+      url "https://github.com/nelsonnyan2001/jwt-helper/releases/download/v0.0.5/jwt-helper_Darwin_x86_64.tar.gz"
+      sha256 "d76f25015efac741b0ed8f2d818d58c8cd960700d015300ecb5fa45fc7e80b1c"
 
       def install
         bin.install "jwt-helper"
       end
     end
     on_arm do
-      url "https://github.com/nelsonnyan2001/jwt-helper/releases/download/v0.0.4/jwt-helper_Darwin_arm64.tar.gz"
-      sha256 "a5266d0ebff79ebeedd2a0fe62d64d6129e04a5b77445223d2ebf701d7f7de7f"
+      url "https://github.com/nelsonnyan2001/jwt-helper/releases/download/v0.0.5/jwt-helper_Darwin_arm64.tar.gz"
+      sha256 "98fc0cf4c4c015c8cf410361fad1f0f5eaba23dae11328ea3d8c9199c16579d2"
 
       def install
         bin.install "jwt-helper"
@@ -29,8 +29,8 @@ class SwingJwtHelper < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/nelsonnyan2001/jwt-helper/releases/download/v0.0.4/jwt-helper_Linux_x86_64.tar.gz"
-        sha256 "bcca167f6ce98a89b5c3d669e1d5ff9281feee6658e3cd158e2e82dd3b3a059b"
+        url "https://github.com/nelsonnyan2001/jwt-helper/releases/download/v0.0.5/jwt-helper_Linux_x86_64.tar.gz"
+        sha256 "dbd58008f00c9729b1775fbe34609075ec0ce1aaff58ad028d747fce5af28dd6"
 
         def install
           bin.install "jwt-helper"
@@ -39,8 +39,8 @@ class SwingJwtHelper < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/nelsonnyan2001/jwt-helper/releases/download/v0.0.4/jwt-helper_Linux_arm64.tar.gz"
-        sha256 "c3d64c6ca2b25690860777f4782a9922c12c1f24d4b0dbb61665fd9c2aa5ee04"
+        url "https://github.com/nelsonnyan2001/jwt-helper/releases/download/v0.0.5/jwt-helper_Linux_arm64.tar.gz"
+        sha256 "aed4e9816cd944363bf6f9c66d647658465fc50fe114b8307c233bb4d02d1b29"
 
         def install
           bin.install "jwt-helper"
